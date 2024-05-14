@@ -5,17 +5,17 @@
 	"variables": {},
 	"resources": [
 		{
-			"name": "storageaccount1",
+			"name": "examplestoragerg1",
 			"type": "Microsoft.Storage/storageAccounts",
 			"apiVersion": "2023-01-01",
 			"tags": {
-				"displayName": "storageaccount1"
+				"displayName": "examplestoragerg1"
 			},
 			"location": "[resourceGroup().location]",
 			"kind": "StorageV2",
 			"sku": {
-				"name": "Premium_LRS",
-				"tier": "Premium"
+				"name": "Standard_LRS",
+				"tier": "Standard"
 			}
 		}
 	],

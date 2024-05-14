@@ -16,15 +16,37 @@ In this example we will be deploying a storage account using an ARM Template we 
 
 ## Initial Setup
 
-First we create a `.json` file withing our VS workspace. After creating the file and verifying you have the ARM Tool extension installed, we can type the following: `arm!` then select the first instance, as shown below.
+First we create a `.json` file within our VS workspace. After creating the file and verifying you have the ARM Tool extension installed, we can type the following: `arm!` then select the first instance, as shown below.
 
 ![alt text](imgs/arm.jpeg)
 
 ## Resources Setup
 
-Now within your new template, head down to the `"resources": []`, click inside the brackets and type `storage` then select the instance called `arm-storage` as shown below.
+Now within your new template, head down to `"resources": []` click inside the brackets and type `storage` then select the instance called `arm-storage` as shown below.
 
 ![alt text](imgs/arm-storage.jpeg)
+
+Once you have the ARM Storage Template created, you can change the `"name"` and `"displayName"` value to be unique and have your desired storage account name. You can also change all other values to fit your needs.
+
+![alt text](imgs/arm-template-final.jpeg)
+
+## Uploading ARM Template
+
+After finishing your ARM Template within VS Code, save the `.json` file and open a terminal within the folder containing your ARM Template and run the code below.
+
+```
+az deployment group create --resource-group ResourceGroupName --template-file FileName.json
+```
+
+<sub>To learn more about the `az deployment group` command, click [here.](https://learn.microsoft.com/en-us/cli/azure/deployment/group?view=azure-cli-latest)</sub>
+
+## Final Thoughts
+
+As you can see the new Storage Account has been created inside of my specified Resource Group.
+
+![alt text](imgs/resource-group.jpeg)
+
+This was a simple Storage Account ARM Template demonstration. ARM Templates can be very useful and if you would like to learn more about them check out [this article.](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/)
 
 ## Feedback
 
