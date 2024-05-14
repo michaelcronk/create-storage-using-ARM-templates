@@ -20,6 +20,12 @@ First we create a `.json` file withing our VS workspace. After creating the file
 
 ![alt text](imgs/arm.jpeg)
 
+## Resources Setup
+
+Now within your new template, head down to the `"resources": []`, click inside the brackets and type `storage` then select the instance called `arm-storage` as shown below.
+
+![alt text](imgs/arm-storage.jpeg)
+
 ## Feedback
 
 If you have and feedback or suggestions, you can always open an issue or submit a pull request. Thank you!
