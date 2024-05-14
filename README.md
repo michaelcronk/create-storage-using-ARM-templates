@@ -14,6 +14,12 @@ In this example we will be deploying a storage account using an ARM Template we 
 - Azure Resource Manager Tool extension installed within **Virtual Studio Code**.
 - An active Azure account, and permissions to create and manage Azure Storage resources.
 
+## Initial Setup
+
+First we create a `.json` file withing our VS workspace. After creating the file and verifying you have the ARM Tool extension installed, we can type the following: `arm!` then select the first instance, as shown below.
+
+![alt text](imgs/arm.jpeg)
+
 ## Feedback
 
 If you have and feedback or suggestions, you can always open an issue or submit a pull request. Thank you!
