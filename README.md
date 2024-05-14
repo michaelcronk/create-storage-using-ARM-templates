@@ -50,4 +50,4 @@ This was a simple Storage Account ARM Template demonstration. ARM Templates can 
 
 ## Feedback
 
-If you have and feedback or suggestions, you can always open an issue or submit a pull request. Thank you!
+If you have and feedback or suggestions, you can leave a comment in the open pull request for this branch. Thank you!
