@@ -32,11 +32,13 @@ Once you have the ARM Storage Template created, you can change the `"name"` and 
 
 ## Uploading ARM Template
 
-After finishing your ARM Template within VS Code, save the `.json` file and open a terminal within the folder containing your ARM Template and run the code below.
+After finishing your ARM Template within VS Code, save the `.json` file and open a terminal within the directory containing your ARM Template and run the command below.
 
 ```
 az deployment group create --resource-group ResourceGroupName --template-file FileName.json
 ```
+
+<sub>Replace `ResourceGroupName` with your applicable Azure Resource Group and `FileName.json` with your file name.</sub>
 
 <sub>To learn more about the `az deployment group` command, click [here.](https://learn.microsoft.com/en-us/cli/azure/deployment/group?view=azure-cli-latest)</sub>
 
